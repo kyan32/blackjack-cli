@@ -20,6 +20,7 @@ blackjack-cli/
 ├── hand.py             # Hand class: card management and score calc
 ├── utils.py            # Utility functions (input, clear screen, etc.)
 ├── highscores.json     # JSON file storing top scores
+├── test_hand.py        # Simple unit test for Hand class
 ├── .gitignore          # Ignore pycache, venv, and temp files
 ├── README.md           # This file
 ```
@@ -48,6 +49,13 @@ cd blackjack-cli
 ```bash
 python game.py
 ```
+
+### 3. Run the test
+
+```bash
+python test_hand.py
+```
+Make sure test_hand.py is in the same directory as the game files, or adjust the import paths accordingly.
 
 > Requires **Python 3.7+**
 
